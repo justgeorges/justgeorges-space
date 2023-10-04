@@ -7,4 +7,26 @@ body {
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding-inline-start: 0px;
 }
+
+li {
+  margin: 10px
+}
+
+/* a {
+  background-color: black;
+  padding: 5px;
+  border: 1px;
+  border: solid;
+  border-color: black;
+  border-radius: 10%;
+  color: white;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+a:active {
+
+} */
