@@ -6,6 +6,11 @@ body {
   width: 100vw;
 }
 
+.page-align {
+ display:flex;
+ justify-content: space-between;
+}
+
 @font-face {
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/terminal_copy.ttf);
   font-family: "Terminal";
@@ -26,6 +31,23 @@ body {
   z-index: -1;
 }
 
+.about {
+  padding: 5px;
+  font-family: "Sys";
+  text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 100px;
+  margin-left: 200px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+  margin-right: 30px;
+  background-color: #2afd72;
+}
+.about h1 {
+  text-align: center;
+}
+
 .scanlines .overlay {
   height: 100%;
   left: 0;
@@ -35,7 +57,6 @@ body {
   z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .scanlines .overlay::after {
   position: absolute;
@@ -76,14 +97,16 @@ body {
   background-color: #0069ff;
   box-sizing: border-box;
   font-family: "Sys";
-  font-size: 40px;
+  font-size: 30px;
   height: auto;
   text-transform: uppercase;
-  width: 45%;
+  width: 16%;
   text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
   filter: blur(1px);
   color: #fff;
   animation: jerkup 100ms infinite;
+  display: flex;
+  flex-wrap: wrap;
 }
 .menu header {
   color: #e7e05c;
@@ -109,6 +132,8 @@ body {
   text-decoration: none;
 }
 .menu footer {
+  display: flex;
+  flex-direction: column;
   background-color: #2afd72;
   margin-top: 10px;
   padding: 5px 15px;
@@ -358,6 +383,5 @@ body {
     transform: skew(0, 0);
   }
 }
-
 
 /*# sourceMappingURL=styles.css.map */
