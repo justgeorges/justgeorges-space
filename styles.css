@@ -15,7 +15,7 @@ body {
 }
 /* padding to block elements */
 footer {
-  position: absolute;
+  position: sticky;
   bottom: 0px;
   width: 100%;
 }
@@ -48,7 +48,6 @@ main {
   padding: 30px;
   margin: 100px;
   text-align: justify;
-
 }
 
 h1 {
