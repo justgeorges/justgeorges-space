@@ -15,7 +15,7 @@ body {
 }
 /* padding to block elements */
 footer {
-  position: sticky;
+  position: absolute;
   bottom: 0px;
   width: 100%;
 }
