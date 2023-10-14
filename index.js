@@ -13,6 +13,20 @@ contactIcons.forEach((icon) => {
   });
 });
 
+// keep the bots away
+const email = document.querySelector(".secret-email");
+email.addEventListener("mouseover", addEmail);
+email.addEventListener("click", addEmail);
+
+function addEmail() {
+  if (this.classList.contains("email-added")) {
+    return;
+  } else {
+    this.href = `mailto:` + `george@justgeorges.space`;
+    this.classList.add("email-added");
+  }
+}
+
 // adding an interesting highlight over the project pages
 const highlight = document.createElement("span");
 highlight.classList.add("highlight");
