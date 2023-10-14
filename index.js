@@ -22,7 +22,7 @@ function addEmail() {
   if (this.classList.contains("email-added")) {
     return;
   } else {
-    this.href = `mailto:` + `george@justgeorges.space`;
+    this.href = `mailto:` + `george` + `@` + `justgeorges.space`;
     this.classList.add("email-added");
   }
 }
