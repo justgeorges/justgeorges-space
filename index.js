@@ -2,6 +2,7 @@ const contacts = document.querySelector(".contact");
 const contactIcons = contacts.querySelectorAll("a");
 const projects = document.querySelector(".projects");
 const projectLinks = projects.querySelectorAll("li");
+const me = `george`;
 
 // spin the icons! in the future, I'd like to look into adding physics to the spin
 contactIcons.forEach((icon) => {
@@ -22,7 +23,7 @@ function addEmail() {
   if (this.classList.contains("email-added")) {
     return;
   } else {
-    this.href = `mailto:` + `george` + `@` + `justgeorges.space`;
+    this.href = `mailto:` + me + `@` + `justgeorges.space`;
     this.classList.add("email-added");
   }
 }
