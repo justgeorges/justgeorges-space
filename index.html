@@ -4,23 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>george's space</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <button class="theme-toggle" style="display: none">Light/Dark</button>
-    <div class="background-layer-1"></div>
-    <div class="background-layer-2"></div>
-    <div class="background-layer-3"></div>
-    <header>GEORGES SPACE</header>
-    <nav>
-      <ul class="nav-grid">
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PROJECT</a></li>
-        <li><a href="#">PULP CODE</a></li>
-        <li><a href="#">BLOG</a></li>
-        <li><a href="#">CVS</a></li>
-        <li><a href="#">SNS</a></li>
-        <li><a href="#">CONTACT</a></li>
+    <nav class="container">
+      <header><span>GEORGES</span><span>SPACE</span></header>
+      <ul class="nav-flex">
+        <div class="row">
+          <li id="about"><a href="#">ABOUT</a></li>
+          <li id="project"><a href="#">PROJECT</a></li>
+        </div>
+        <!-- TODO fix the padding inbetween each row -->
+        <div class="row">
+          <li id="pulp"><a href="#">PULPCODE</a></li>
+          <li id="blog"><a href="#">BLOG</a></li>
+        </div>
+        <div class="row">
+          <li id="cv"><a href="#">CVS</a></li>
+          <li id="sn"><a href="#">SNS</a></li>
+          <li id="contact"><a href="#">CONTACT</a></li>
+        </div>
       </ul>
     </nav>
   </body>

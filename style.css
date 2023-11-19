@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Staatliches', sans-serif;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+/* background-images + texture animation*/
+/* TODO animate noise using the 3 different backgrounds */
+.background-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('assets/backgroundNoise.jpg');
+  background-size: cover;
+  opacity: 5%;
+}
+
+/* TODO ensure font family is more tighly packed */
+a {
+  text-decoration: none;
+  color: #949494;
+  font-size: 60pt;
+  transition: 200ms;
+}
+
+a:hover {
+  color: #FFFFFF;
+  text-shadow: antiquewhite 0 0 5px;
+}
+
+header {
+  font-size: 60pt;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+/* TODO create a grid that reflects spec in design */
+
+.nav-flex {
+  padding: 0;
+  margin: 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* TODO fix alignment and refactor */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
