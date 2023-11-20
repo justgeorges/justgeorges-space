@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
   box-sizing: border-box;
-  font-family: 'Staatliches', sans-serif;
-
 }
 
 body {
@@ -14,6 +11,11 @@ body {
   height: 100vh;
   width: 100vw;
   position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50pt;
+  font-weight: 800;
+  line-height: 0.75;
+  letter-spacing: 3px;
 }
 
 /* background-images + texture animation*/
@@ -31,7 +33,6 @@ body {
 a {
   text-decoration: none;
   color: #949494;
-  font-size: 60pt;
   transition: 200ms;
 }
 
@@ -41,7 +42,6 @@ a:hover {
 }
 
 header {
-  font-size: 60pt;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -65,6 +65,7 @@ li {
 /* TODO fix alignment and refactor */
 .container {
   position: absolute;
+  width: 600px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
