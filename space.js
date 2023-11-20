@@ -1,12 +1,11 @@
-const navItems = document.querySelectorAll(".nav-item");
+const navItems = document.querySelectorAll(".sub-list-head");
 let toggle = false;
 let lastVisible;
 
 function toggleSubList(event) {
-  if (event.target.classList.contains("label")) {
-    lastVisible = event.target.nextElementSibling;
-    lastVisible.classList.toggle("vis");
-  }
+  console.log(event.target.childNodes[3]);
+  lastVisible = event.target.childNodes[3];
+  lastVisible.classList.toggle("vis");
 }
 
 // TODO ensure list remains visible while moused over
