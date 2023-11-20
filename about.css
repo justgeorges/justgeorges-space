@@ -125,7 +125,7 @@ a:hover {
   display: flex;
   flex-direction: column-reverse;
   position: absolute;
-  bottom: 50px;
+  bottom: 55px;
 }
 
 .sub-list > li {
