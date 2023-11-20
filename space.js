@@ -10,6 +10,5 @@ function toggleSubList(event) {
 
 // TODO ensure list remains visible while moused over
 navItems.forEach((item) => {
-  item.addEventListener("mouseenter", toggleSubList);
-  item.addEventListener("mouseleave", toggleSubList);
+  item.addEventListener("mouseover", toggleSubList);
 });
