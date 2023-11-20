@@ -54,6 +54,7 @@ li {
   list-style: none;
 }
 
+/* TODO refactor */
 .bg {
   position: fixed;
   top: -50%;
