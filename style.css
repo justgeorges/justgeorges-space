@@ -29,7 +29,6 @@ body {
   width: 100%;
   background-image: url('assets/backgroundNoise.jpg');
   background-size: cover;
-  opacity: 5%;
 }
 
 /* TODO ensure font family is more tighly packed */
@@ -108,7 +107,6 @@ p {
   height: 200vh;
   background: url('http://assets.iceable.com/img/noise-transparent.png') repeat;
   animation: bg-animation .2s infinite;
-  opacity: .9;
   visibility: visible;
 }
 
