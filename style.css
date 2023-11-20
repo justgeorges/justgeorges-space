@@ -95,7 +95,6 @@ p {
   height: 200vh;
   background: url('http://assets.iceable.com/img/noise-transparent.png') repeat;
   animation: bg-animation .2s infinite;
-  opacity: .9;
   visibility: visible;
 }
 
