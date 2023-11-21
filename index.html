@@ -4,58 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>george's space</title>
-    <link rel="stylesheet" href="away.css" />
+    <link rel="stylesheet" href="home.css" />
   </head>
   <body>
     <div class="bg"></div>
 
-    <nav class="container">
+    <div class="container">
       <header><span>GEORGES</span><span>SPACE</span></header>
-      <!-- TODO change ul to nav, remove lis  -->
-      <ul class="nav-flex">
+      <nav class="nav-flex">
         <div class="row">
-          <li id="about"><a class="nav-item" href="/about.html">ABOUT</a></li>
-          <li id="project">
-            <a class="nav-item" href="/project.html">PROJECT</a>
-          </li>
+          <a class="nav-item" href="/about.html">ABOUT</a>
+          <a class="nav-item" href="/project.html">PROJECT</a>
         </div>
         <div class="row">
           <!-- TODO adjust pulpcode (quarter-width space) -->
-          <li id="pulp">
-            <a class="nav-item" href="/pulpcode.html">PULPCODE</a>
-          </li>
-          <li id="blog"><a class="nav-item" href="#">BLOG</a></li>
+          <a class="nav-item" href="/pulpcode.html">PULPCODE</a>
+          <a class="nav-item" href="#">BLOG</a>
         </div>
         <div class="row">
-          <li class="sub-list-head" id="cv">
-            <p class="nav-item label">CVS</p>
-            <ul class="sub-list">
-              <li><a href="#">ENGLISH</a></li>
-              <li><a href="#" id="skrs">職務経歴書</a></li>
-            </ul>
-          </li>
-          <li class="sub-list-head" id="sn">
-            <p class="nav-item label">SNS</p>
-            <!-- TODO add aria to sublists -->
-            <!-- TODO refactor flyout menus https://www.w3.org/WAI/tutorials/menus/flyout/ -->
-            <ul class="sub-list">
-              <li><a href="https://github.com/justgeorges">GITHUB</a></li>
-              <li>
-                <a href="https://www.linkedin.com/in/georgearbanas/"
-                  >LINKEDIN</a
-                >
-              </li>
-              <li>
-                <a href="https://www.wantedly.com/id/george_arbanas"
-                  >WANTEDLY</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li id="contact"><a class="nav-item" href="#">CONTACT</a></li>
+          <p class="nav-item label">CVS</p>
+          <ul class="sub-list">
+            <li><a href="#">ENGLISH</a></li>
+            <li><a href="#" id="skrs">職務経歴書</a></li>
+          </ul>
+          <p class="nav-item label">SNS</p>
+          <!-- TODO add aria to sublists -->
+          <!-- TODO refactor flyout menus https://www.w3.org/WAI/tutorials/menus/flyout/ -->
+          <ul class="sub-list">
+            <li><a href="https://github.com/justgeorges">GITHUB</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/georgearbanas/">LINKEDIN</a>
+            </li>
+            <li>
+              <a href="https://www.wantedly.com/id/george_arbanas">WANTEDLY</a>
+            </li>
+          </ul>
+          <a class="nav-item" href="#">CONTACT</a>
         </div>
-      </ul>
-    </nav>
+      </nav>
+    </div>
     <script src="space.js"></script>
   </body>
 </html>
