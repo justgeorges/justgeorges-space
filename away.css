@@ -169,6 +169,11 @@ main {
   height: 100%;
 }
 
+.arrow:hover {
+  filter: brightness(200%);
+}
+
+
 .projects {
   width: 95%;
   height: 100%;
@@ -184,4 +189,8 @@ main {
 
 .logo {
   width: 70px;
+}
+
+.project-link {
+  text-decoration: underline;
 }
