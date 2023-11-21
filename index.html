@@ -11,7 +11,7 @@
 
     <div class="container">
       <header><span>GEORGES</span><span>SPACE</span></header>
-      <nav class="nav-flex">
+      <nav class="nav-flex" aria-label="Main">
         <div class="row">
           <a class="nav-item" href="/about.html">ABOUT</a>
           <a class="nav-item" href="/project.html">PROJECT</a>
@@ -22,16 +22,16 @@
           <a class="nav-item" href="#">BLOG</a>
         </div>
         <div class="row">
-          <p class="nav-item label">CVS</p>
-          <ul class="sub-list">
-            <li><a href="#">ENGLISH</a></li>
-            <li><a href="#" id="skrs">職務経歴書</a></li>
-          </ul>
-          <div class="sub-list-head">
-            <p class="nav-item label">SNS</p>
-            <!-- TODO add aria to sublists -->
-            <!-- TODO refactor flyout menus https://www.w3.org/WAI/tutorials/menus/flyout/ -->
-            <ul class="sub-list">
+          <div class="has-submenu">
+            <button class="nav-item label">CVS</button>
+            <ul id="first-list" class="sub-list" aria-expanded="false">
+              <li><a href="#">ENGLISH</a></li>
+              <li><a href="#" id="skrs">職務経歴書</a></li>
+            </ul>
+          </div>
+          <div class="has-submenu">
+            <button class="nav-item label">SNS</button>
+            <ul class="sub-list" aria-expanded="false">
               <li><a href="https://github.com/justgeorges">GITHUB</a></li>
               <li>
                 <a href="https://www.linkedin.com/in/georgearbanas/"
@@ -44,8 +44,8 @@
                 >
               </li>
             </ul>
-            <a class="nav-item" href="#">CONTACT</a>
           </div>
+          <a class="nav-item" href="#">CONTACT</a>
         </div>
       </nav>
     </div>
