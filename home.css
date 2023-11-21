@@ -61,7 +61,7 @@ body {
 }
 /* TODO add :focus */
 
-.vis {
+.sub-list.vis {
   visibility: visible;
 }
 
@@ -80,10 +80,16 @@ padding: 0;
 margin: 0;
 }
 
-p {
+button {
   padding: 0;
   margin: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 50pt;
+  font-weight: 800;
+  line-height: 0.8;
 }
+
 
 /* TODO refactor */
 /* TODO add mouse interaction */
@@ -132,4 +138,8 @@ p {
   line-height: 1.2;
 }
 
+#first-list{
+  transform: translateX(-50%);
+  text-align: end;
+}
 /* TODO add @media queries */

@@ -1,8 +1,8 @@
-const navItems = document.querySelectorAll(".sub-list-head");
+const navItems = document.querySelectorAll(".has-submenu");
 let lastVisible;
 
 function toggleSubList(event) {
-  console.log(event.target);
+  console.log(event.target.childNodes[3]);
   lastVisible = event.target.childNodes[3];
   lastVisible.classList.toggle("vis");
 }
