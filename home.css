@@ -55,11 +55,20 @@ body {
   transition: 200ms;
 }
 
+a:focus{
+  color: #FFFFFF;
+  text-shadow: antiquewhite 0 0 5px;
+}
+
+button:focus {
+  color: #FFFFFF;
+  text-shadow: antiquewhite 0 0 5px;
+}
+
 .sub-list a:hover {
   color: #FFFFFF;
   text-shadow: antiquewhite 0 0 5px;
 }
-/* TODO add :focus */
 
 .sub-list.vis {
   visibility: visible;
