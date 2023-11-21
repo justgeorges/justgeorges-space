@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   padding: 0;
   margin: 0;
@@ -30,6 +29,7 @@ body {
   text-decoration: none;
   color: #949494;
   transition: 200ms;
+  display: block;
 }
 
 .nav-item:hover {
@@ -50,6 +50,7 @@ body {
 }
 
 .sub-list a {
+  text-decoration: none;
   color: #949494;
   transition: 200ms;
 }
