@@ -12,6 +12,11 @@ function toggleSubList(event) {
     lastVisible = event.target.nextElementSibling;
     lastVisible.classList.toggle("vis");
   }
+  if (lastVisible.classList.contains("vis")) {
+    lastVisible.setAttribute("aria-expanded", "true");
+  } else {
+    lastVisible.setAttribute("aria-expanded", "false");
+  }
 }
 
 function test(event) {

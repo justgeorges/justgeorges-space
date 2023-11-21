@@ -135,3 +135,53 @@ a:hover {
   width: 500px;
   margin-bottom: 1px;
 }
+
+#first-list{
+  transform: translateX(-75%);
+  text-align: end;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.project > h1 {
+  margin: 0;
+}
+.project > h2 {
+  margin: 0;
+}
+.project > h3 {
+  margin: 0;
+}
+.project > h4 {
+  margin: 5px;
+}
+.project > p {
+  margin-top: 5px;
+}
+
+.arrow {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+}
+
+.projects {
+  width: 95%;
+  height: 100%;
+  padding: 50px;
+}
+
+.tech-stack {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.logo {
+  width: 70px;
+}
