@@ -58,6 +58,7 @@ body {
   color: #FFFFFF;
   text-shadow: antiquewhite 0 0 5px;
 }
+/* TODO add :focus */
 
 .vis {
   visibility: visible;
@@ -129,3 +130,5 @@ p {
 #skrs {
   line-height: 1.2;
 }
+
+/* TODO add @media queries */
