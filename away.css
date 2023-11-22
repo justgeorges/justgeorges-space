@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Space+Mono&display=swap");
 
 * {
   box-sizing: border-box;
@@ -13,13 +13,18 @@ body {
   /* static effect */
   background-color: #111111;
   overflow-x: hidden;
-/* font settings */
-  font-family: 'Roboto', sans-serif;
+  /* font settings */
+  font-family: "Roboto", sans-serif;
   font-size: 45pt;
   font-weight: 800;
   line-height: 0;
   letter-spacing: 3px;
   overflow: hidden;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -38,7 +43,7 @@ li > p {
 }
 
 li > p:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: antiquewhite 0 0 5px;
 }
 
@@ -53,13 +58,13 @@ li {
 
 header {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-left: 15px;
   margin-right: 15px;
 }
 
 main {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   height: 76vh;
   padding: 15px;
   margin-left: 15px;
@@ -68,6 +73,9 @@ main {
   line-height: 1;
   font-size: 35pt;
   color: coral;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 .away-nav-list {
@@ -80,10 +88,9 @@ a {
 }
 
 a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: antiquewhite 0 0 5px;
 }
-
 
 .bg {
   position: fixed;
@@ -93,30 +100,52 @@ a:hover {
   bottom: -50%;
   width: 200%;
   height: 200vh;
-  background: url('http://assets.iceable.com/img/noise-transparent.png') repeat;
-  animation: bg-animation .2s infinite;
-  opacity: .9;
+  background: url("http://assets.iceable.com/img/noise-transparent.png") repeat;
+  animation: bg-animation 0.2s infinite;
+  opacity: 0.9;
   visibility: visible;
   pointer-events: none;
 }
 
 @keyframes bg-animation {
-    0% { transform: translate(0,0) }
-    10% { transform: translate(-5%,-5%) }
-    20% { transform: translate(-10%,5%) }
-    30% { transform: translate(5%,-10%) }
-    40% { transform: translate(-5%,15%) }
-    50% { transform: translate(-10%,5%) }
-    60% { transform: translate(15%,0) }
-    70% { transform: translate(0,10%) }
-    80% { transform: translate(-15%,0) }
-    90% { transform: translate(10%,5%) }
-    100% { transform: translate(5%,0) }
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-5%, -5%);
+  }
+  20% {
+    transform: translate(-10%, 5%);
+  }
+  30% {
+    transform: translate(5%, -10%);
+  }
+  40% {
+    transform: translate(-5%, 15%);
+  }
+  50% {
+    transform: translate(-10%, 5%);
+  }
+  60% {
+    transform: translate(15%, 0);
+  }
+  70% {
+    transform: translate(0, 10%);
+  }
+  80% {
+    transform: translate(-15%, 0);
+  }
+  90% {
+    transform: translate(10%, 5%);
+  }
+  100% {
+    transform: translate(5%, 0);
+  }
 }
 
 .sub-list {
   position: relative;
-  visibility: hidden
+  visibility: hidden;
 }
 
 .sub-list.vis {
@@ -136,15 +165,9 @@ a:hover {
   margin-bottom: 1px;
 }
 
-#first-list{
+#first-list {
   transform: translateX(-75%);
   text-align: end;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
 }
 
 .project > h1 {
@@ -172,7 +195,6 @@ main {
 .arrow:hover {
   filter: brightness(200%);
 }
-
 
 .projects {
   width: 95%;

@@ -14,7 +14,7 @@ console.log(projectBox);
 
 function handleButton(event) {
   console.log(event.target.id === "right-arrow" && count < projectBox.length);
-  if (event.target.id === "right-arrow" && count < projectBox.length) {
+  if (event.target.id === "right-arrow" && count < projectBox.length - 1) {
     count += 1;
     activeProject = projectBox[count];
     displayProject(activeProject, "right", count);
