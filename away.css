@@ -25,6 +25,9 @@ body {
 p {
   margin-top: 0;
   margin-bottom: 30px;
+  &.description {
+    overflow: auto;
+  }
 }
 
 h1 {
